@@ -1,0 +1,10 @@
+{
+  "name": "openpanel",
+  "build": {
+    "cmd": "pnpm install && pnpm build",
+    "dist": ".next"
+  },
+  "start": {
+    "cmd": "pnpm start"
+  }
+}
