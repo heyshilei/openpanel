@@ -1,8 +1,9 @@
 {
   "name": "openpanel",
   "build": {
-    "cmd": "pnpm install && pnpm build",
-    "dist": ".next"
+    "cmd": "npm install -g pnpm && pnpm install && pnpm build",
+    "dist": ".next",
+    "node": "18"
   },
   "start": {
     "cmd": "pnpm start"
